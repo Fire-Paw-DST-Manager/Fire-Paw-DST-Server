@@ -5,21 +5,27 @@ from typing import Iterable, Mapping, Any
 
 
 def mybool(value: str) -> bool:
-    if value == 'true':
+    if value.lower() == 'true':
         return True
     return False
 
 
-def myfloat(value: str) -> float:
+def myfloat(value: str) -> float | None:
     if not value:
+        return None
+    try:
+        return float(value)
+    except ValueError:
         return 0.0
-    return float(value)
 
 
-def myint(value: str) -> int:
+def myint(value: str) -> int | None:
     if not value:
+        return None
+    try:
+        return int(value)
+    except ValueError:
         return 0
-    return int(value)
 
 
 class ValueType:
@@ -38,7 +44,7 @@ class IniParser:
 
     @staticmethod
     def _get_configparser() -> ConfigParser:
-        return ConfigParser(converters={'int': myint, 'float': myfloat, 'bool': mybool})
+        return ConfigParser(converters={'int': myint, 'float': myfloat, 'boolean': mybool})
 
     def _read(self, method: str, *args, strict: bool = False, **kwargs) -> None:
         """
