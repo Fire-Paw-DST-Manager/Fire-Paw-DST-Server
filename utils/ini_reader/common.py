@@ -5,27 +5,11 @@ from typing import Iterable, Mapping, Any
 
 
 def mybool(value: str) -> bool:
+    if not value:
+        raise ValueError("Invalid boolean value")
     if value.lower() == 'true':
         return True
     return False
-
-
-def myfloat(value: str) -> float | None:
-    if not value:
-        return None
-    try:
-        return float(value)
-    except ValueError:
-        return 0.0
-
-
-def myint(value: str) -> int | None:
-    if not value:
-        return None
-    try:
-        return int(value)
-    except ValueError:
-        return 0
 
 
 class ValueType:
@@ -44,7 +28,7 @@ class IniParser:
 
     @staticmethod
     def _get_configparser() -> ConfigParser:
-        return ConfigParser(converters={'int': myint, 'float': myfloat, 'boolean': mybool})
+        return ConfigParser(converters={'boolean': mybool})
 
     def _read(self, method: str, *args, strict: bool = False, **kwargs) -> None:
         """
@@ -94,16 +78,20 @@ class IniParser:
                 if strict:
                     if key not in value_types:
                         continue
-                match value_types.get(key):
-                    case ValueType.bool:
-                        sec[key] = section.getboolean(key)
-                    case ValueType.float:
-                        sec[key] = section.getfloat(key)
-                    case ValueType.int:
-                        sec[key] = section.getint(key)
-                    case ValueType.str:
-                        sec[key] = section.get(key)
-                    case _:
-                        sec[key] = section.get(key)
+                try:
+                    match value_types.get(key):
+                        case ValueType.bool:
+                            sec[key] = section.getboolean(key)
+                        case ValueType.float:
+                            sec[key] = section.getfloat(key)
+                        case ValueType.int:
+                            sec[key] = section.getint(key)
+                        case ValueType.str:
+                            sec[key] = section.get(key)
+                        case _:
+                            sec[key] = section.get(key)
+                except ValueError:
+                    "原数据不合规，忽略掉"
+                    pass
 
         return self.dict
