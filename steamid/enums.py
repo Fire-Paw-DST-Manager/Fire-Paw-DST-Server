@@ -93,6 +93,7 @@ class MaxValue(IntEnum):
     account_pre = _bit_fill_1(BitLenght.account_pre)
     account_suf = _bit_fill_1(BitLenght.account_suf)
     account_id  = _bit_fill_1(BitLenght.account_id)
+    instance    = _bit_fill_1(BitLenght.instance)
     steam_id    = _bit_fill_1(BitLenght.full)
 
 

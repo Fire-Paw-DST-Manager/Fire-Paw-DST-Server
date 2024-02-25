@@ -18,7 +18,14 @@ from .enums import (
 
 
 class SteamID:
-    def __init__(self, steam_id: str | int = None) -> None:
+    def __init__(self,
+                 steam_id: str | int = None,
+                 *,
+                 universe: Universes = None,
+                 type_: Types = None,
+                 instance: int = None,
+                 account_id: int = None
+                 ) -> None:
 
         self._universe: Universes = Universes.invalid
         self._type: Types = Types.invalid
@@ -26,9 +33,45 @@ class SteamID:
         self._account_id: int = 0
 
         if steam_id is not None:
-            self.set_id(steam_id)
+            self.set_steam_id(steam_id)
 
-    def set_id(self, steam_id: str | int) -> None:
+        if universe is not None:
+            self.set_universe(universe)
+        if type_ is not None:
+            self.set_type(type_)
+        if instance is not None:
+            self.set_instance(instance)
+        if account_id is not None:
+            self.set_account_id(account_id)
+
+    def set_universe(self, universe: Universes) -> None:
+        """单独设置实例的 universe"""
+        if universe not in Universes:
+            raise ValueError(f'无效的 universe')
+        self._universe = universe
+
+    def set_type(self, type_: Types) -> None:
+        """设置实例的 type，若 instance 为 0，将会根据 type 为其设置对应的值"""
+        if type_ not in Types:
+            raise ValueError(f'无效的 type')
+        self._type = type_
+        if not self._instance:
+            self._instance = TypeCharsToInstances[TypeChars(type_).name]
+
+    def set_instance(self, instance: int) -> None:
+        """单独设置实例的 instance"""
+        if not (0 <= instance <= MaxValue.instance):
+            raise ValueError(f'instance 超出有效范围：0~{MaxValue.instance}')
+        self._instance = instance
+
+    def set_account_id(self, account_id: int) -> None:
+        """单独设置实例的 account_id"""
+        if not (0 <= account_id <= MaxValue.account_id):
+            raise ValueError(f'account_id 超出有效范围：0~{MaxValue.account_id}')
+        self._account_id = account_id
+
+    def set_steam_id(self, steam_id: str | int) -> None:
+        """通过解析有效的 steamID 设置所需属性"""
         steam_id = str(steam_id)
         if result := Patterns.steamID64.value.match(steam_id):
             self._parse_steamID64(result.string)
@@ -44,9 +87,9 @@ class SteamID:
     @staticmethod
     def _combine_account_id(account_pre: int, account_suf: int) -> int:
         if account_pre > MaxValue.account_pre:
-            raise ValueError(f'account_pre 超过了最大值：{MaxValue.account_pre}')
+            raise ValueError(f'account_pre 超出有效范围：0~{MaxValue.account_pre}')
         if account_suf > MaxValue.account_suf:
-            raise ValueError(f'account_suf 超过了最大值：{MaxValue.account_suf}')
+            raise ValueError(f'account_suf 超出有效范围：0~{MaxValue.account_suf}')
         return (account_pre << BitLenght.account_suf) | account_suf
 
     @staticmethod
@@ -73,7 +116,7 @@ class SteamID:
         account_suf = int(result.group('account_suf'))
         account_id = self._combine_account_id(account_pre, account_suf)
         if account_id > MaxValue.account_id:
-            raise ValueError(f'account_id 超过了最大值：{MaxValue.account_id}')
+            raise ValueError(f'account_id 超出有效范围：0~{MaxValue.account_id}')
         self._account_id = account_id
 
         universe = int(result.group('universe'))
@@ -90,7 +133,7 @@ class SteamID:
 
         account_id = int(result.group('account_id'))
         if account_id > MaxValue.account_id:
-            raise ValueError(f'account_id 超过了最大值：{MaxValue.account_id}')
+            raise ValueError(f'account_id 超出有效范围：0~{MaxValue.account_id}')
         self._account_id = account_id
 
         type_ = result.group('type')
