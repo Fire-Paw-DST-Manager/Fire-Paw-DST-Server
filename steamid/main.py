@@ -21,8 +21,8 @@ class SteamID:
     def __init__(self,
                  steam_id: str | int = None,
                  *,
-                 universe: Universes = None,
-                 type_: Types = None,
+                 universe: int = None,
+                 type_: int = None,
                  instance: int = None,
                  account_id: int = None
                  ) -> None:
@@ -44,13 +44,13 @@ class SteamID:
         if account_id is not None:
             self.set_account_id(account_id)
 
-    def set_universe(self, universe: Universes) -> None:
+    def set_universe(self, universe: int) -> None:
         """单独设置实例的 universe"""
         if universe not in Universes:
             raise ValueError(f'无效的 universe')
         self._universe = universe
 
-    def set_type(self, type_: Types) -> None:
+    def set_type(self, type_: int) -> None:
         """设置实例的 type，若 instance 为 0，将会根据 type 为其设置对应的值"""
         if type_ not in Types:
             raise ValueError(f'无效的 type')
