@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
+# https://developer.valvesoftware.com/wiki/SteamID:zh-cn
 # https://github.com/xPaw/SteamID.php
 # https://steam.readthedocs.io/en/stable/api/steam.steamid.html
 # https://github.com/SteamRE/SteamKit/blob/master/SteamKit2/SteamKit2/Types/SteamID.cs
 
 from .enums import (
-    BitLenght,
+    BitLength,
     Instances,
     Masks,
     MaxValue,
@@ -82,7 +83,7 @@ class SteamID:
 
     @staticmethod
     def _divide_account_id(account_id: int) -> tuple[int, int]:
-        return account_id >> BitLenght.account_suf, account_id & Masks.account_suf
+        return account_id >> BitLength.account_suf, account_id & Masks.account_suf
 
     @staticmethod
     def _combine_account_id(account_pre: int, account_suf: int) -> int:
@@ -90,7 +91,7 @@ class SteamID:
             raise ValueError(f'account_pre 超出有效范围：0~{MaxValue.account_pre}')
         if account_suf > MaxValue.account_suf:
             raise ValueError(f'account_suf 超出有效范围：0~{MaxValue.account_suf}')
-        return (account_pre << BitLenght.account_suf) | account_suf
+        return (account_pre << BitLength.account_suf) | account_suf
 
     @staticmethod
     def _shift_right_read(num: int, length: int) -> tuple[int, int]:
@@ -104,10 +105,10 @@ class SteamID:
         if steam_id64 > MaxValue.steam_id:
             raise ValueError(f'传入数据不是有效的 steamID')
         num = steam_id64
-        self._account_id, num = self._shift_right_read(num, BitLenght.account_id)
-        self._instance, num = self._shift_right_read(num, BitLenght.instance)
-        self._type, num = self._shift_right_read(num, BitLenght.type)
-        self._universe, num = self._shift_right_read(num, BitLenght.universe)
+        self._account_id, num = self._shift_right_read(num, BitLength.account_id)
+        self._instance, num = self._shift_right_read(num, BitLength.instance)
+        self._type, num = self._shift_right_read(num, BitLength.type)
+        self._universe, num = self._shift_right_read(num, BitLength.universe)
 
     def _parse_steamID32(self, steam_id: str) -> None:
         result = Patterns.steamID32.value.match(steam_id)
@@ -150,9 +151,9 @@ class SteamID:
     @property
     def steam_id64(self) -> str:
         shift_dis_account_id = 0
-        shift_dis_instance = shift_dis_account_id + BitLenght.account_id
-        shift_dis_type = shift_dis_instance + BitLenght.instance
-        shift_dis_universe = shift_dis_type + BitLenght.type
+        shift_dis_instance = shift_dis_account_id + BitLength.account_id
+        shift_dis_type = shift_dis_instance + BitLength.instance
+        shift_dis_universe = shift_dis_type + BitLength.type
         return str(
             (self._universe << shift_dis_universe) |
             (self._type << shift_dis_type) |
@@ -202,7 +203,8 @@ class SteamID:
         if self._universe == Universes.invalid or self._universe not in Universes:
             return False
         if ((self._type == Types.individual or self._type == Types.console_user)
-                and self._account_id != 0 and self._instance in Instances):
+                and self._account_id != 0
+                and self._instance in Instances):
             return True
         return False
 

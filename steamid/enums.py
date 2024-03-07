@@ -55,12 +55,12 @@ class Instances(IntEnum):
     web     = 4
 
 
-def _bit_fill_1(bit_lenght: int) -> int:
+def _bit_fill_1(bit_length: int) -> int:
     """3 -> 0b111"""
-    return (1 << bit_lenght) - 1
+    return (1 << bit_length) - 1
 
 
-class BitLenght(IntEnum):
+class BitLength(IntEnum):
     full        = 64
 
     universe    = 8
@@ -75,11 +75,11 @@ class BitLenght(IntEnum):
 
 
 class Masks(IntFlag):
-    type        = _bit_fill_1(BitLenght.type)
-    universe    = _bit_fill_1(BitLenght.universe)
-    instance    = _bit_fill_1(BitLenght.instance)
-    account_pre = _bit_fill_1(BitLenght.account_pre)
-    account_suf = _bit_fill_1(BitLenght.account_suf)
+    type        = _bit_fill_1(BitLength.type)
+    universe    = _bit_fill_1(BitLength.universe)
+    instance    = _bit_fill_1(BitLength.instance)
+    account_pre = _bit_fill_1(BitLength.account_pre)
+    account_suf = _bit_fill_1(BitLength.account_suf)
 
 
 # 聊天使用的特殊 instance，使用前面的 bit
@@ -90,11 +90,11 @@ class InstanceFlags(IntFlag):
 
 
 class MaxValue(IntEnum):
-    account_pre = _bit_fill_1(BitLenght.account_pre)
-    account_suf = _bit_fill_1(BitLenght.account_suf)
-    account_id  = _bit_fill_1(BitLenght.account_id)
-    instance    = _bit_fill_1(BitLenght.instance)
-    steam_id    = _bit_fill_1(BitLenght.full)
+    account_pre = _bit_fill_1(BitLength.account_pre)
+    account_suf = _bit_fill_1(BitLength.account_suf)
+    account_id  = _bit_fill_1(BitLength.account_id)
+    instance    = _bit_fill_1(BitLength.instance)
+    steam_id    = _bit_fill_1(BitLength.full)
 
 
 # 除了 U, g, c, L, T，这几个（个人、群组、聊天），其他应该都是不准的
