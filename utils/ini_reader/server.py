@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from utils.ini_reader.common import IniParser, ValueType
+from utils.ini_reader.common import IniReader, ValueType
 
 
-class ServerIniParser(IniParser):
+class ServerIniReader(IniReader):
     _VALUE_TYPES = {
         'STEAM':
             {

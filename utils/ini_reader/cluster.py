@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from utils.ini_reader.common import IniParser, ValueType
+from utils.ini_reader.common import IniReader, ValueType
 
 
-class ClusterIniParser(IniParser):
+class ClusterIniReader(IniReader):
     _VALUE_TYPES = {
 
         'GAMEPLAY':

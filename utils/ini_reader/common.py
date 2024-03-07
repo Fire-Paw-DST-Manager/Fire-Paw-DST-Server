@@ -1,30 +1,32 @@
 # -*- coding: utf-8 -*-
+
 from configparser import ConfigParser, DEFAULTSECT
+from enum import Enum
 from os import PathLike
 from typing import Iterable, Mapping, Any
 
 
 def mybool(value: str) -> bool:
     if not value:
-        raise ValueError("Invalid boolean value")
+        raise ValueError("Invalid boolean value: %s", value)
     if value.lower() == 'true':
         return True
     return False
 
 
-class ValueType:
+class ValueType(Enum):
     bool = 1
     float = 2
     int = 3
     str = 4
 
 
-class IniParser:
+class IniReader:
     _VALUE_TYPES: dict | None = None
 
     def __init__(self) -> None:
         self._configparser: ConfigParser | None = None
-        self.dict = {}
+        self.data = {}
 
     @staticmethod
     def _get_configparser() -> ConfigParser:
@@ -33,7 +35,7 @@ class IniParser:
     def _read(self, method: str, *args, strict: bool = False, **kwargs) -> None:
         """
 
-        :param method: 需要调用的 self._configparser 的方法名
+        :param method: 需要调用的 configparser.ConfigParser 的方法名
         :param args: 参数
         :param strict: 是否是严格模式。如果是，将会舍弃 self._VALUE_TYPES 中不包含的项
         :param kwargs: 键值对参数
@@ -53,9 +55,15 @@ class IniParser:
     def read_dict(self, dictionary: Mapping[str, Mapping[str, Any]], strict: bool = False) -> None:
         self._read(method='read_dict', dictionary=dictionary, strict=strict)
 
-    def _parse(self, strict: bool = False) -> dict:
+    def _parse(self, strict: bool = False) -> None:
         if self._VALUE_TYPES is None:
-            return {section_name: dict(section) for section_name, section in self._configparser.items()}
+            # 由于不能确定原始数据中是否有 DEFAULTSECT，所以不尝试忽略
+            for section_name, section in self._configparser.items():
+                if section_name not in self.data:
+                    self.data[section_name] = dict(section)
+                    continue
+                self.data[section_name] |= dict(section)
+            return
 
         for section_name, section in self._configparser.items():
             section_name = section_name.upper()
@@ -69,10 +77,10 @@ class IniParser:
 
             value_types = self._VALUE_TYPES.get(section_name, {})
 
-            if section_name in self.dict:
-                sec = self.dict[section_name]
+            if section_name in self.data:
+                sec = self.data[section_name]
             else:
-                self.dict[section_name] = (sec := {})
+                self.data[section_name] = (sec := {})
 
             for key in section:
                 if strict:
@@ -91,7 +99,5 @@ class IniParser:
                         case _:
                             sec[key] = section.get(key)
                 except ValueError:
-                    "原数据不合规，忽略掉"
+                    # 原数据不合规，忽略掉
                     pass
-
-        return self.dict

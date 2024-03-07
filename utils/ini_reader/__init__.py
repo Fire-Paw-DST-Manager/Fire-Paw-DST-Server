@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
-from .common import IniParser
-from .cluster import ClusterIniParser
-from .server import ServerIniParser
+from .common import IniReader
+from .cluster import ClusterIniReader
+from .server import ServerIniReader
