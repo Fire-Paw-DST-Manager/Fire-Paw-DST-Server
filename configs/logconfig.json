@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "simple": {
+      "format": "%(name)-8s | %(asctime)s | %(levelname)-8s | %(module)8s:%(lineno)-4d | %(funcName)-8s | - %(message)s",
+      "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+    },
+    "json": {
+      "()": "log.mylogger.MyJSONFormatter",
+      "fmt_keys": {
+        "level": "levelname",
+        "time": "time",
+        "logger": "name",
+        "module": "module",
+        "function": "funcName",
+        "line": "lineno",
+        "thread_name": "threadName",
+        "message": "message"
+      }
+    },
+    "ignore_exc": {
+      "()": "log.mylogger.IgnoreExcFormatter"
+    }
+  },
+  "filters": {
+    "info_only": {
+      "()": "log.mylogger.InfoOnlyFilter"
+    }
+  },
+  "handlers": {
+    "stdout": {
+      "class": "logging.StreamHandler",
+      "level": "INFO",
+      "formatter": "simple",
+      "stream": "ext://sys.stdout",
+      "filters": ["info_only"]
+    },
+    "stderr": {
+      "class": "logging.StreamHandler",
+      "level": "WARNING",
+      "formatter": "simple",
+      "stream": "ext://sys.stderr"
+    },
+    "file_json": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "level": "DEBUG",
+      "formatter": "json",
+      "filename": "FirePawLogs/FirePaw.log.jsonl",
+      "maxBytes": 5242880,
+      "backupCount": 20,
+      "encoding": "utf-8"
+    },
+    "queue_handler": {
+      "class": "log.mylogger.KeepExcInfoQueueHandler",
+      "formatter": "ignore_exc",
+      "handlers": [
+        "stderr",
+        "file_json"
+      ],
+      "respect_handler_level": true
+    }
+  },
+  "loggers": {
+    "root": {
+      "level": "DEBUG",
+      "handlers": [
+        "stdout",
+        "queue_handler"
+      ]
+    }
+  }
+}
