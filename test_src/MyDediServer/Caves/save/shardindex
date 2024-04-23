@@ -1,0 +1,81 @@
+KLEI     1 return {
+  enabled_mods={
+    ["workshop-1595631294"]={
+      configuration_options={
+        BundleItems=false,
+        ChangeSkin=true,
+        Digornot=true,
+        DragonflyChest=false,
+        Icebox=false,
+        SaltBox=false 
+      },
+      enabled=true 
+    },
+    ["workshop-2172032964"]={ configuration_options={ RequestAge=5 }, enabled=true },
+    ["workshop-666155465"]={
+      configuration_options={
+        chestB=-1,
+        chestG=-1,
+        chestR=-1,
+        display_hp=-1,
+        food_estimation=-1,
+        food_order=0,
+        food_style=2,
+        lang="chs",
+        show_food_units=-1,
+        show_uses=-1 
+      },
+      enabled=true 
+    } 
+  },
+  server={
+    clan={ admin=false, id="103582791470163712", only=false },
+    description="那些金色的小麦都会让我想起你 我从此将会爱上麦田里的风声 ~~~~~~~~~~~~~~~~ 点击左下小旗子加入群组 40转无尽24h无人重置 不满5天下线掉落物品",
+    encode_user_path=true,
+    game_mode="survival",
+    max_players=8,
+    name="一拳一个小蜘蛛",
+    online_mode=true,
+    password="",
+    playstyle="survival",
+    privacy_type=0,
+    pvp=false,
+    server_language="zh" 
+  },
+  session_id="9806F0D2945C0C71",
+  version=5,
+  world={
+    options={
+      background_node_range={ 0, 1 },
+      desc="探查洞穴…… 一起！",
+      hideminimap=false,
+      id="DST_CAVE",
+      location="cave",
+      max_playlist_position=999,
+      min_playlist_position=0,
+      name="洞穴",
+      numrandom_set_pieces=0,
+      override_level_string=false,
+      overrides={
+        grassgekkos="never",
+        layout_mode="RestrictNodesByKey",
+        prefabswaps_start="classic",
+        roads="never",
+        season_start="default",
+        start_location="caves",
+        task_set="cave_default",
+        world_size="default",
+        wormhole_prefab="tentacle_pillar" 
+      },
+      required_prefabs={ "multiplayer_portal" },
+      settings_desc="探查洞穴…… 一起！",
+      settings_id="DST_CAVE",
+      settings_name="洞穴",
+      substitutes={  },
+      version=4,
+      worldgen_desc="探查洞穴…… 一起！",
+      worldgen_id="DST_CAVE",
+      worldgen_name="洞穴" 
+    } 
+  } 
+}
