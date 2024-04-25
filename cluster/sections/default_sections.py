@@ -344,6 +344,8 @@ class DefaultShardForShard(_IniSection):
     # 默认 随机正整数
     id: non_neg_int = Field(gt=0, default=1)
 
+    # 以下四项为可选项，设置后将覆盖 cluster.ini 中的同名项目。但实际基本没人会特地在这里设置，也完全想不到合适的应用场景，所以干脆不支持这个
+
     # 只需要为主服务器设置此项
     # 从服务器的IP，主服务器监听此IP并与其连接。主从服务器都在同一计算机上时，填127.0.0.1（表示本机）；否则填0.0.0.0（表示所有IP）
     # 默认 127.0.0.1
@@ -364,7 +366,6 @@ class DefaultShardForShard(_IniSection):
 
     @model_validator(mode='after')
     def _(self):
-        print('vvvvv')
         if self.is_master:
             if self.name != '[SHDMASTER]':
                 self.name = '[SHDMASTER]'

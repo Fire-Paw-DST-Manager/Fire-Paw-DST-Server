@@ -15,10 +15,10 @@ class ServerIniReader(IniReader):
                 'is_master': ValueType.bool,
                 'name': ValueType.str,
                 'id': ValueType.int,
-                'bind_ip': ValueType.str,
-                'master_ip': ValueType.str,
-                'master_port': ValueType.str,
-                'cluster_key': ValueType.str,
+                # 'bind_ip': ValueType.str,
+                # 'master_ip': ValueType.str,
+                # 'master_port': ValueType.str,
+                # 'cluster_key': ValueType.str,
             },
 
         'ACCOUNT':
