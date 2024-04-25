@@ -1,28 +1,22 @@
 # -*- coding: utf-8 -*-
-import sys
-from typing import Union
-from pathlib import Path
+from configparser import ConfigParser
+from io import StringIO
+from sys import stdout
+
 from cluster.settings import ClusterSetting, ShardSetting
+from utils.ini_reader import ClusterIniReader, ServerIniReader
 
 
 def cluster():
     xx = ClusterSetting()
 
     print('默认存档数据：\n', xx.model_dump())
-    from configparser import ConfigParser
 
     c = ConfigParser()
-
     c.read_dict(xx.model_dump())
+    print('默认存档序列化后数据：')
+    c.write(stdout)
 
-    from io import StringIO
-    s = StringIO()
-    c.write(s)
-    s.seek(0)
-
-    print('默认存档序列化后数据：\n', s.read())
-
-    from utils.ini_reader import ClusterIniReader
     parser = ClusterIniReader()
     parser.read('../../test_src/MyDediServer/cluster.ini', encoding='utf-8')
     dd = parser.data
@@ -34,11 +28,16 @@ def shard():
     xx = ShardSetting()
     print('默认分片数据：\n', xx.model_dump())
 
-    from utils.ini_reader import ClusterIniReader
-    parser = ClusterIniReader()
+    c = ConfigParser()
+    c.read_dict(xx.model_dump())
+    print('默认分片序列化后数据：')
+    c.write(stdout)
+
+    parser = ServerIniReader()
     parser.read('../../test_src/MyDediServer/Master/server.ini', encoding='utf-8')
     dd = parser.data
     print(dd)
+    print(ShardSetting(**dd))
     print(ShardSetting(**dd).model_dump())
 
 
