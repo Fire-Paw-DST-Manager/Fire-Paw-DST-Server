@@ -1,0 +1,2510 @@
+[
+  [
+    202,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "is_shoreline": true,
+      "_render_layer": 1,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "wavetint": [
+        0.8,
+        0.9,
+        1
+      ],
+      "walksound": "dontstarve/movement/walk_marsh",
+      "flashpoint_modifier": 0,
+      "atlas": "levels/tiles/cave.xml",
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 202,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          220,
+          240,
+          255,
+          60
+        ],
+        "secondary_color_dusk": [
+          0,
+          0,
+          0,
+          50
+        ],
+        "secondary_color": [
+          21,
+          96,
+          110,
+          140
+        ]
+      },
+      "ocean_depth": "SHALLOW"
+    }
+  ],
+  [
+    206,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "is_shoreline": true,
+      "_render_layer": 2,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "wavetint": [
+        0.65,
+        0.92,
+        0.94
+      ],
+      "walksound": "dontstarve/movement/walk_marsh",
+      "flashpoint_modifier": 0,
+      "atlas": "levels/tiles/cave.xml",
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 206,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "primary_color": [
+          255,
+          255,
+          255,
+          25
+        ],
+        "secondary_color_dusk": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "secondary_color": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      "ocean_depth": "SHALLOW"
+    }
+  ],
+  [
+    201,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 3,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "wavetint": [
+        0.8,
+        0.9,
+        1
+      ],
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 201,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          220,
+          255,
+          255,
+          28
+        ],
+        "secondary_color_dusk": [
+          10,
+          120,
+          125,
+          120
+        ],
+        "secondary_color": [
+          25,
+          123,
+          167,
+          100
+        ]
+      },
+      "ocean_depth": "SHALLOW"
+    }
+  ],
+  [
+    208,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 4,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "wavetint": [
+        1,
+        1,
+        1
+      ],
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 208,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          40,
+          87,
+          93,
+          51
+        ],
+        "primary_color": [
+          220,
+          255,
+          255,
+          28
+        ],
+        "secondary_color_dusk": [
+          10,
+          120,
+          125,
+          120
+        ],
+        "secondary_color": [
+          25,
+          123,
+          167,
+          100
+        ]
+      },
+      "ocean_depth": "SHALLOW"
+    }
+  ],
+  [
+    205,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 5,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "wavetint": [
+        0.65,
+        0.92,
+        0.94
+      ],
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 205,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          40,
+          87,
+          93,
+          51
+        ],
+        "primary_color": [
+          5,
+          185,
+          220,
+          60
+        ],
+        "secondary_color_dusk": [
+          5,
+          15,
+          20,
+          200
+        ],
+        "secondary_color": [
+          5,
+          20,
+          45,
+          200
+        ]
+      },
+      "ocean_depth": "SHALLOW"
+    }
+  ],
+  [
+    203,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 6,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "wavetint": [
+        0.65,
+        0.84,
+        0.94
+      ],
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 203,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          14,
+          34,
+          61,
+          204
+        ],
+        "primary_color": [
+          150,
+          255,
+          255,
+          18
+        ],
+        "secondary_color_dusk": [
+          9,
+          52,
+          57,
+          150
+        ],
+        "secondary_color": [
+          0,
+          45,
+          80,
+          220
+        ]
+      },
+      "ocean_depth": "BASIC"
+    }
+  ],
+  [
+    204,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 7,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "wavetint": [
+        0.65,
+        0.84,
+        0.94
+      ],
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 204,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          19,
+          20,
+          40,
+          230
+        ],
+        "primary_color": [
+          10,
+          200,
+          220,
+          30
+        ],
+        "secondary_color_dusk": [
+          5,
+          20,
+          25,
+          230
+        ],
+        "secondary_color": [
+          1,
+          20,
+          45,
+          230
+        ]
+      },
+      "ocean_depth": "DEEP"
+    }
+  ],
+  [
+    207,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 8,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ocean_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "wavetint": [
+        0.4,
+        0.5,
+        0.62
+      ],
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 207,
+      "runsound": "dontstarve/movement/run_marsh",
+      "colors": {
+        "minimap_color": [
+          8,
+          8,
+          14,
+          51
+        ],
+        "primary_color": [
+          255,
+          255,
+          255,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          0,
+          0,
+          150
+        ],
+        "secondary_color": [
+          0,
+          8,
+          18,
+          51
+        ]
+      },
+      "ocean_depth": "VERY_DEEP"
+    }
+  ],
+  [
+    38,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/grass3.xml",
+      "_render_layer": 9,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/quagmire_gateway_noise.tex",
+      "walksound": "dontstarve/movement/walk_woods",
+      "name": "grass3",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 38,
+      "runsound": "dontstarve/movement/run_woods",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/grass3.tex"
+    }
+  ],
+  [
+    41,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 10,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/quagmire_citystone_noise.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 41,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    36,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/deciduous.xml",
+      "_render_layer": 11,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/quagmire_parkfield_noise.tex",
+      "walksound": "dontstarve/movement/walk_carpet",
+      "name": "deciduous",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 36,
+      "runsound": "dontstarve/movement/run_carpet",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/deciduous.tex"
+    }
+  ],
+  [
+    37,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 12,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/quagmire_parkstone_noise.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 37,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    35,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/grass2.xml",
+      "_render_layer": 13,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/quagmire_peatforest_noise.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "name": "grass2",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 35,
+      "runsound": "dontstarve/movement/run_marsh",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/grass2.tex"
+    }
+  ],
+  [
+    2,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/cobblestone.xml",
+      "_render_layer": 14,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "images/square.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "texture_name": "levels/tiles/cobblestone.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "cobblestone",
+      "flashpoint_modifier": 0,
+      "old_static_id": 2,
+      "runsound": "dontstarve/movement/run_dirt",
+      "mudsound": "dontstarve/movement/run_mud",
+      "roadways": true
+    }
+  ],
+  [
+    256,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 15,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ground_noise_cotl_brick.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_dirt",
+      "mudsound": "dontstarve/movement/run_mud",
+      "roadways": true
+    }
+  ],
+  [
+    42,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/rocky.xml",
+      "_render_layer": 16,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_pebblebeach.tex",
+      "walksound": "turnoftides/movement/run_pebblebeach",
+      "name": "rocky",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 42,
+      "runsound": "turnoftides/movement/run_pebblebeach",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/rocky.tex"
+    }
+  ],
+  [
+    257,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 17,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ground_noise_monkeyisland.tex",
+      "walksound": "turnoftides/movement/run_pebblebeach",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "runsound": "turnoftides/movement/run_pebblebeach",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    44,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 18,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ground_noise_shellbeach.tex",
+      "walksound": "turnoftides/movement/run_pebblebeach",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 44,
+      "runsound": "turnoftides/movement/run_pebblebeach",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    8,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/marsh.xml",
+      "_render_layer": 19,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/Ground_noise_marsh.tex",
+      "walksound": "dontstarve/movement/walk_marsh",
+      "name": "marsh",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 8,
+      "runsound": "dontstarve/movement/run_marsh",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/marsh.tex"
+    }
+  ],
+  [
+    3,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/rocky.xml",
+      "_render_layer": 20,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_rocky.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "flashpoint_modifier": 0,
+      "name": "rocky",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 3,
+      "runsound": "dontstarve/movement/run_dirt",
+      "mudsound": "dontstarve/movement/run_mud",
+      "texture_name": "levels/tiles/rocky.tex"
+    }
+  ],
+  [
+    5,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/yellowgrass.xml",
+      "_render_layer": 21,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_noise_grass_detail.tex",
+      "walksound": "dontstarve/movement/walk_tallgrass",
+      "name": "yellowgrass",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 5,
+      "runsound": "dontstarve/movement/run_tallgrass",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/yellowgrass.tex"
+    }
+  ],
+  [
+    7,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/forest.xml",
+      "_render_layer": 22,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_noise.tex",
+      "walksound": "dontstarve/movement/walk_woods",
+      "name": "forest",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 7,
+      "runsound": "dontstarve/movement/run_woods",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/forest.tex"
+    }
+  ],
+  [
+    6,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/grass.xml",
+      "_render_layer": 23,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_noise.tex",
+      "walksound": "dontstarve/movement/walk_grass",
+      "name": "grass",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 6,
+      "runsound": "dontstarve/movement/run_grass",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/grass.tex"
+    }
+  ],
+  [
+    4,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/dirt.xml",
+      "_render_layer": 24,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_noise_dirt.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "dirt",
+      "cannotbedug": true,
+      "old_static_id": 4,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/dirt.tex"
+    }
+  ],
+  [
+    30,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/deciduous.xml",
+      "_render_layer": 25,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_noise_deciduous.tex",
+      "walksound": "dontstarve/movement/walk_carpet",
+      "name": "deciduous",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 30,
+      "runsound": "dontstarve/movement/run_carpet",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/deciduous.tex"
+    }
+  ],
+  [
+    31,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/desert_dirt.xml",
+      "_render_layer": 26,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_noise_dirt.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "desert_dirt",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 31,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/desert_dirt.tex"
+    }
+  ],
+  [
+    13,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 27,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_cave.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 13,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    14,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 28,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_fungus.tex",
+      "walksound": "dontstarve/movement/walk_moss",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 14,
+      "runsound": "dontstarve/movement/run_moss",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    24,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 29,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_fungus_red.tex",
+      "walksound": "dontstarve/movement/walk_moss",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 24,
+      "runsound": "dontstarve/movement/run_moss",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    25,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 30,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_fungus_green.tex",
+      "walksound": "dontstarve/movement/walk_moss",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 25,
+      "runsound": "dontstarve/movement/run_moss",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    46,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 31,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/Ground_noise_moon_fungus.tex",
+      "walksound": "grotto/movement/grotto_footstep",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 46,
+      "runsound": "grotto/movement/grotto_footstep",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    15,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 32,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/noise_sinkhole.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 15,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    16,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 33,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_rock.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 16,
+      "runsound": "dontstarve/movement/run_dirt",
+      "mudsound": "dontstarve/movement/run_mud",
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    17,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 34,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/noise_mud.tex",
+      "walksound": "dontstarve/movement/walk_mud",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 17,
+      "runsound": "dontstarve/movement/run_mud",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    45,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 35,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/Ground_noise_archive.tex",
+      "walksound": "dontstarve/movement/run_marble",
+      "name": "blocky",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 45,
+      "runsound": "dontstarve/movement/run_marble",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/blocky.tex"
+    }
+  ],
+  [
+    19,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 36,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_ruinsbrick.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 19,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    18,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 37,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_ruinsbrickglow.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 18,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    21,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 38,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/noise_ruinstile.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 21,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    20,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 39,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_ruinstileglow.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 20,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    23,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 40,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/noise_ruinstrim.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 23,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    22,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 41,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_ruinstrimglow.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "cave",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 22,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/cave.tex"
+    }
+  ],
+  [
+    43,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/meteor.xml",
+      "_render_layer": 42,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_meteor.tex",
+      "walksound": "turnoftides/movement/run_meteor",
+      "name": "meteor",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 43,
+      "runsound": "turnoftides/movement/run_meteor",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/meteor.tex"
+    }
+  ],
+  [
+    258,
+    {
+      "mudsound": "monkeyisland/dock/walk_dock",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 43,
+      "snowsound": "monkeyisland/dock/walk_dock",
+      "noise_texture": "levels/textures/ground_noise_dock.tex",
+      "texture_name": "levels/tiles/cave.tex",
+      "walksound": "monkeyisland/dock/walk_dock",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "flashpoint_modifier": 0,
+      "name": "cave",
+      "cannotbedug": true,
+      "runsound": "monkeyisland/dock/run_dock",
+      "hard": true,
+      "flooring": true
+    }
+  ],
+  [
+    32,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/cave.xml",
+      "_render_layer": 44,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/Ground_noise_dragonfly.tex",
+      "walksound": "dontstarve/movement/run_marble",
+      "hard": true,
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "cave",
+      "texture_name": "levels/tiles/cave.tex",
+      "old_static_id": 32,
+      "runsound": "dontstarve/movement/run_marble",
+      "flooring": true,
+      "flashpoint_modifier": 250
+    }
+  ],
+  [
+    10,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 45,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_woodfloor.tex",
+      "walksound": "dontstarve/movement/walk_wood",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "old_static_id": 10,
+      "runsound": "dontstarve/movement/run_wood",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    259,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 46,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ground_noise_cotl_gold.tex",
+      "walksound": "dontstarve/movement/walk_marble",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_marble",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    12,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 47,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_checker.tex",
+      "walksound": "dontstarve/movement/walk_marble",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "old_static_id": 12,
+      "runsound": "dontstarve/movement/run_marble",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    260,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 48,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_mosaictiles_grey.tex",
+      "walksound": "dontstarve/movement/walk_marble",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_marble",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    261,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 49,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_mosaictiles_red.tex",
+      "walksound": "dontstarve/movement/walk_marble",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_marble",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    262,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/blocky.xml",
+      "_render_layer": 50,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/noise_mosaictiles_blue.tex",
+      "walksound": "dontstarve/movement/walk_marble",
+      "texture_name": "levels/tiles/blocky.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "blocky",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_marble",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    263,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/carpet.xml",
+      "_render_layer": 51,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/noise_carpet2.tex",
+      "walksound": "dontstarve/movement/walk_carpet",
+      "texture_name": "levels/tiles/carpet.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "carpet",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_carpet",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    11,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/carpet.xml",
+      "_render_layer": 52,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/noise_carpet.tex",
+      "walksound": "dontstarve/movement/walk_carpet",
+      "texture_name": "levels/tiles/carpet.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "carpet",
+      "flashpoint_modifier": 0,
+      "old_static_id": 11,
+      "runsound": "dontstarve/movement/run_carpet",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    39,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/carpet.xml",
+      "_render_layer": 53,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/quagmire_soil_noise.tex",
+      "walksound": "dontstarve/movement/walk_mud",
+      "name": "carpet",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 39,
+      "runsound": "dontstarve/movement/run_mud",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/carpet.tex"
+    }
+  ],
+  [
+    264,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/carpet.xml",
+      "_render_layer": 54,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/Ground_beard_hair.tex",
+      "walksound": "dontstarve/movement/walk_carpet",
+      "texture_name": "levels/tiles/carpet.tex",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "carpet",
+      "flashpoint_modifier": 0,
+      "runsound": "dontstarve/movement/run_carpet",
+      "mudsound": "dontstarve/movement/run_mud",
+      "flooring": true
+    }
+  ],
+  [
+    47,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/farmsoil.xml",
+      "_render_layer": 55,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/quagmire_soil_noise.tex",
+      "walksound": "dontstarve/movement/walk_mud",
+      "name": "farmsoil",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 47,
+      "runsound": "dontstarve/movement/run_mud",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/farmsoil.tex"
+    }
+  ],
+  [
+    34,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/lavaarena_trim_ms.xml",
+      "_render_layer": 56,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/lavaarena_trim_noise.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "lavaarena_trim_ms",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 34,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/lavaarena_trim_ms.tex"
+    }
+  ],
+  [
+    33,
+    {
+      "mudsound": "dontstarve/movement/run_mud",
+      "atlas": "levels/tiles/lavaarena_floor_ms.xml",
+      "_render_layer": 57,
+      "snowsound": "dontstarve/movement/run_snow",
+      "noise_texture": "levels/textures/lavaarena_floor_noise.tex",
+      "walksound": "dontstarve/movement/walk_dirt",
+      "name": "lavaarena_floor_ms",
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "old_static_id": 33,
+      "runsound": "dontstarve/movement/run_dirt",
+      "flashpoint_modifier": 0,
+      "texture_name": "levels/tiles/lavaarena_floor_ms.tex"
+    }
+  ],
+  [
+    265,
+    {
+      "hard": true,
+      "atlas": "levels/tiles/meteor.xml",
+      "_render_layer": 58,
+      "snowsound": "dontstarve/movement/run_ice",
+      "noise_texture": "levels/textures/ground_noise_lunarrift.tex",
+      "walksound": "turnoftides/movement/run_meteor",
+      "flashpoint_modifier": 0,
+      "colors": {
+        "minimap_color": [
+          23,
+          51,
+          62,
+          102
+        ],
+        "primary_color": [
+          0,
+          0,
+          0,
+          25
+        ],
+        "secondary_color_dusk": [
+          0,
+          20,
+          33,
+          80
+        ],
+        "secondary_color": [
+          0,
+          20,
+          33,
+          0
+        ]
+      },
+      "name": "meteor",
+      "cannotbedug": true,
+      "runsound": "turnoftides/movement/run_meteor",
+      "texture_name": "levels/tiles/meteor.tex",
+      "mudsound": "dontstarve/movement/run_mud"
+    }
+  ]
+]

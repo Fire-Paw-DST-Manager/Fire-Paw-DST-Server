@@ -1,0 +1,488 @@
+[
+    [
+        202,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_water_shallow.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        206,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_water_coral.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        201,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/ocean_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        208,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/ocean_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        205,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/ocean_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        203,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/ocean_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        204,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/ocean_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        207,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/ocean_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        38,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_gateway_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        41,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_citystone_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        36,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_parkfield_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        37,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_parkstone_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        35,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_peatforest_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        2,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_cobblestone_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        42,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_pebblebeach.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        256,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_pebblebeach.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        44,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_pebblebeach.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        8,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_marsh_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        3,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_rocky_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        5,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_grass2_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        7,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_forest_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        6,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_grass_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        4,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_dirt_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        30,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_deciduous_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        31,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_desert_dirt_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        13,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_cave_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        14,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_fungus_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        24,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_fungus_red_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        25,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_fungus_green_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        46,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/Ground_noise_moon_fungus_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        15,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_sinkhole_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        16,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_rock_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        17,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_mud_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        45,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/Ground_noise_archive_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        19,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_ruinsbrick_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        18,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_ruinsbrick_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        21,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_ruinstile_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        20,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_ruinstile_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        23,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_ruinstile_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        22,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_ruinstrim_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        43,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_meteor.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        257,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_marsh_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        32,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_dragonfly_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        10,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_woodfloor_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        12,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_checker_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        258,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_mosaictiles_grey_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        259,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_mosaictiles_red_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        260,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_mosaictiles_blue_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        261,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_carpet2_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        11,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/mini_carpet_noise.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        39,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_soil_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        47,
+        {
+            "atlas": "levels/tiles/map_edge.xml",
+            "noise_texture": "levels/textures/quagmire_soil_mini.tex",
+            "name": "map_edge",
+            "texture_name": "levels/tiles/map_edge.tex"
+        }
+    ],
+    [
+        34,
+        {
+            "atlas": "levels/tiles/lavaarena_floor_ms.xml",
+            "noise_texture": "levels/textures/lavaarena_trim_mini.tex",
+            "name": "lavaarena_floor_ms",
+            "texture_name": "levels/tiles/lavaarena_floor_ms.tex"
+        }
+    ],
+    [
+        33,
+        {
+            "atlas": "levels/tiles/lavaarena_floor_ms.xml",
+            "noise_texture": "levels/textures/lavaarena_floor_mini.tex",
+            "name": "lavaarena_floor_ms",
+            "texture_name": "levels/tiles/lavaarena_floor_ms.tex"
+        }
+    ]
+]
