@@ -187,6 +187,10 @@ class AsyncFifo(Fifo):
     @staticmethod
     async def get_awriter(writer: TextIO) -> asyncio.StreamWriter:
         loop = asyncio.get_running_loop()
+        # asyncio.streams.py 26
+        # StreamReaderProtocol 实现了对 StreamWriter.wait_closed 的支持
+        # 其父类 FlowControlMixin 实现了对 StreamWriter.drain 的支持
+        # 所以需要实例化 StreamWriter 需要 StreamReaderProtocol 作为参数
         # noinspection PyTypeChecker
         w_protocol = asyncio.StreamReaderProtocol(None, loop=loop)
         w_transport, _ = await loop.connect_write_pipe(lambda: w_protocol, writer)
